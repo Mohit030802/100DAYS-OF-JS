@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Playfair+Display:wght@500&family=Roboto+Slab:wght@300&family=Rubik:wght@400;500;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Playfair Display', serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #4258f4;
+}
+.container{
+    background: #fff;
+    width: 450px;
+    border-radius: 8px;
+}
+.container h2{
+    font-weight: 600;
+    font-size: 2rem;
+    padding: 1rem 1.5rem;
+    border-bottom: 1px solid #d4dbe5;
+}
+.wrapper{
+    margin: 1.5rem  1.75rem;
+}
+.wrapper .input-box{
+    position: relative;
+}
+.input-box input{
+    width: 100%;
+    height: 53px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    border: 1px solid #aaa;
+    padding: 0 3rem 0 1rem;
+    border-radius: 4px;
+    letter-spacing: 1.4px;
+}
+.input-box span{
+    position: absolute;
+    right: 13px;
+    color: #707070;
+    cursor: pointer;
+    line-height: 53px;
+}
+.wrapper .pass-indicator{
+    width: 100%;
+    height: 4px;
+    position: relative;
+    background-color: #dfdfdf;
+    margin-top: 25px;
+    border-radius: 25px;
+
+}
+.pass-indicator::before{
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    background-color: #f1c80b;
+    content: "";
+    transition: width 0.3s ease;
+
+}
+.pass-indicator#Weak::before{
+    width: 20%;
+    background-color: #E64A4A;
+}
+.pass-indicator#Medium::before{
+    width: 50%;
+    background-color: #f1c80b;
+}
+.pass-indicator#Strong::before{
+    width: 100%;
+    background-color: #428542;
+}
+.wrapper .pass-length{
+    margin-top: 1.5rem 0 1.25rem;
+}
+.pass-length .details{
+    display: flex;
+    justify-content: space-between;
+}
+.pass-length input{
+    width: 100%;
+    height: 5px;
+}
+.pass-setting .options{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+.pass-setting .options .option{
+    display: flex;
+    align-items: center;
+    width: calc(100%/2);
+    margin-bottom: 1rem;
+}
+.options .option:first-child{
+    pointer-events: none;
+}
+.options .option:first-child input{
+    opacity: 0.7;
+}
+.options .option input{
+    height: 16px;
+    width: 16px;
+    cursor: pointer;
+}
+.options .option label{
+    cursor: pointer;
+    padding-left: 0.65rem;
+}
+.wrapper .generate-btn{
+    width: 100%;
+    color: #fff;
+    border: none;
+    outline: none;
+    background: #4258f4;
+    cursor: pointer;
+    padding: 1rem 0;
+    margin: 1rem 0 1.2rem;
+    border-radius: 6px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
