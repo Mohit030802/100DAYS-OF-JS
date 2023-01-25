@@ -1,10 +1,10 @@
 
-# DSA-JAVA-LEETCODE
+# 100-DAYS-JS
 
 Hello I am Mohit,
  
 
-I am doing 100 days of JS cha. In this chanllenge I will create 100 Java Script projects in 100 Days using HTML CSS for fortend and JavaScript for backend
+I am doing 100 days of JS challenge. In this chanllenge I will create 100 Java Script projects in 100 Days using HTML CSS for fortend and JavaScript for backend
 and will be posting on my Github and LinkedIn. 
 If you find this interesting make sure to give it a Star.
 ## 🔗 REACH ME AT
