@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+    
+    min-height: 100vh;
+    background: linear-gradient(135deg,#8B55E9 0%,#5D6BE6 100%);
+}
+.wrapper{
+    position: absolute;
+    visibility: hidden;
+    width: 300px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 12px 35px rgba(0,0,0,0.1);
+}
+
+.wrapper .menu{
+    padding: 10px 12px;
+
+}
+
+.content .item{
+    list-style: none;
+    font-size: 22px;
+    height: 50px;
+    width: 100%;
+    cursor: pointer;
+    display: flex;
+    padding: 0 5px 0 10px;
+    align-items: center;
+    border-radius: 5px;
+    margin-bottom: 2px;
+}
+.content .item:hover{
+    background: #f2f2f2;
+
+}
+.content .item span{
+    font-size: 19px;
+    margin-left: 8px;
+}
+.content .setting{
+    display: flex;
+    margin-top: -5px;
+    border-top: 1pX solid #ccc;
+    padding: 5px 12px;
+}
+.content .share{
+    position: relative;
+    justify-content: space-between;
+}
+.share .share-menu{
+    position: absolute;
+    background: #fff;
+    width: 200px;
+    right: -200px;
+    top: -35px;
+    opacity: 0;
+    pointer-events: none;
+    padding: 13px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.08);
+    transition: 0.2s ease;
+
+}
+.share:hover .share-menu{
+    opacity: 1;
+    pointer-events: auto;
+}
