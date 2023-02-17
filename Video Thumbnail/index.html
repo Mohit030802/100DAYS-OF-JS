@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Thumbnail downloader</title>
+  </head>
+  <body>
+    <form action="#">
+      <header>Download Thumbnail</header>
+      <div class="url-input">
+        <span class="title">Paste video url:</span>
+        <div class="field">
+          <input type="text" required />
+          <input class="hidden-input" type="hidden" name="imgurl" />
+          <span class="bottom-line"></span>
+        </div>
+      </div>
+      <div class="preview-area">
+        <img class="thumbnail" src="" alt="" />
+        <i class="icon fas fa-cloud-download-alt"></i>
+        <span>Paste video url to see preview</span>
+      </div>
+      <button class="download-btn" type="submit">Download Thumbnail</button>
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>
