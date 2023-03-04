@@ -1,7 +1,7 @@
 
 # 100-DAYS-JS
 
-Hello I am Mohit,
+Hello I am Mohit Kumar Dubey,
  
 
 I am doing 100 days of JS challenge. In this chanllenge I will create 100 Java Script projects in 100 Days using HTML CSS for fortend and JavaScript for backend
